@@ -1,5 +1,9 @@
 package com.example.searchpetSpring.Dao;
 
-public interface IMascotaDao {
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.searchpetSpring.Entity.Mascota;
+
+public interface IMascotaDao extends CrudRepository<Mascota, Long> {
 
 }

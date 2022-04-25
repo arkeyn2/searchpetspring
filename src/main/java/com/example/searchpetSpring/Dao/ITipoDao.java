@@ -1,5 +1,9 @@
 package com.example.searchpetSpring.Dao;
 
-public interface ITipoDao {
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.searchpetSpring.Entity.Tipo;
+
+public interface ITipoDao extends CrudRepository<Tipo, Long>{
 
 }
